@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: #323232;
+    color: #323232be;
     border: none;
 }
 
@@ -20,7 +20,7 @@ input:focus, label:focus {
 }
 
 a {
-    color: #e60084;
+    color: #f7299e;
 }
 
 body {
@@ -37,12 +37,13 @@ body {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(0, 255, 34);
+    background-color: rgb(0, 140, 255);
     border-radius: 10px;
     padding: 25px;
 }
 
 #login-container h1 {
+    text-decoration: underline;
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.6rem;
