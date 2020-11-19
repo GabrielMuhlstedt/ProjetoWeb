@@ -1,0 +1,292 @@
+/*Corpo*/
+body{
+    margin: 0;
+    background-color: #ffface;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+  font-size: 75px;
+}
+#content {
+    display:block;
+}
+
+#Slogan-area {
+    background-color: #ffcc66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 5vh;
+    font-size: large;
+
+}
+
+#cabecalho {
+    display: flex;
+    background-color: #ffface;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px;
+    min-width: 50px;
+    max-width: 130px;
+}
+
+
+#icons-area img {
+    margin: 20px;
+    min-width: 10px;
+    max-width: 30px;
+
+}
+
+#icon-carrinho {
+    min-width: 30px;
+    max-width: 40px;
+    min-height: 30px;
+    max-height: 40px;
+}
+
+#corpo {
+    display: inline-block;
+    width: 100vw;
+    background-color: #ffface;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 500px;
+    min-height: 250px;
+    font-size: 36px;
+}
+
+#corpo span {
+    text-align: center;
+    display: block;
+    margin: 2vh;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: #ffcc66;
+}
+
+#corpo button {
+    border-radius: 20px;
+    height: 10vh;
+    width: 35vw;
+    margin: 2vh;
+    margin-bottom: 4vh;
+    background-color: #ff9933;
+    font-size: 25px;
+}
+
+.icones{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 1%;
+    height: 45px;
+}
+
+.bIcone{
+    cursor: pointer;
+    width:auto;
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.div-card{
+    width: 260px;
+    height: 140px;
+    background-color: #ff9933;
+    float: left;
+    margin: 10px;
+    padding: 8px;
+
+}
+.div-img{
+  width: 55%;
+}
+.div-texto{
+  padding-right: 75px;
+}
+
+/*Produtos*/
+header{
+    padding-left: 5%;
+    background-color: #ffface;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pBody{
+    width: 100%;
+}
+
+.pBotao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vw;
+}
+
+
+.pTexto{
+    text-align: center;
+    font-size: 230%;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #ffcc66;
+
+}
+
+.img-Produto{
+    width: 90%;
+    margin-top:13%;
+    margin-left:2%;
+    border: thick white solid;
+}
+
+#campo-titulo{
+    text-align: center;
+    margin-top: 4%;
+    font-size:300%;
+}
+
+.campo-botao{
+    border: solid black;
+    padding: 1% 8%;
+    margin-top: 4%;
+    font-size: 400%;
+    cursor: pointer;
+    background-color: #ff9933;
+    color: #000000
+}
+
+#img-Titulo{
+    width: 45%;
+}
+
+
+/*Depoimento*/
+#depoimento-area {
+    display: block;
+    width: 75vw;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+    margin-bottom: 8vw;
+    background-color:#ffcc66;
+    border-radius: 50px;
+    padding: 180px;
+}
+
+#depoimento-area input, textarea{
+    display: flex;
+    background-color: #ff9933;
+    padding: 8px;
+}
+
+#depoimento-area input[type=text], input[type=email] {
+    width: 90%;
+    height: 4%;
+    border-radius: 20px;
+    min-height: 25px;
+    max-width: 500px;
+    margin:5%;
+
+}
+
+#depoimento-area input[type=submit] {
+    width: 40%;
+    height: 20%;
+    margin:5% auto;
+    justify-content: center;
+    min-height: 30px;
+}
+
+#depoimento-area textarea {
+    width: 90%;
+    height: 35%;
+    min-height: 100px;
+    border-radius: 15px;
+    margin:5% auto;
+}
+
+#endereco {
+    background-color: #ffcc66;
+    display: block;
+    width: 75%;
+    margin: 15px auto;
+    border-radius: 50px;
+    height: 50vh;
+}
+
+#endereco-text, #numero{
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 60px;
+    width: 55vw;
+    margin: 3px auto;
+}
+
+#rodape {
+    background-color: #ff9933;
+    display: block;
+    width: 100vw;
+    height: 10vh;
+}
+
+#rodape img {
+    width: 25px;
+}
+
+/*Video*/
+.caixa {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #ffface;
+}
+
+  .titulo {
+    margin-top: 3%;
+    display: inline-block;
+    padding: 0 25px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    border-radius: 25px;
+    background-color: #ffcc66;
+  }
+
+  .video {
+    margin-top: 3%;
+  }
+
+
+/*Mapa*/
+#map{
+	width: 300px;
+	height: 300px;
+	background-color: #ddd;
+}
+.mapinha{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}

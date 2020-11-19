@@ -1,9 +1,141 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Online</title>
 
-  </body>
+    <link rel="stylesheet" type="text/css" href="./CSS/index_estilos.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scriptIndex.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN57mkO88IXlQikM9Gp6zA2txiHgxMtJY&callback=initMap" async defer ></script>
+
+
+</head>
+<body>
+
+    <div id="content">
+
+        <div id="Slogan-area">
+
+            <h2>Deixando seu dia muito mais delicioso!</h2>
+
+        </div>
+        <div id="cabecalho">
+
+            <div id="Logo-area">
+
+                <img id="logo" src="./imagens/logo.png" alt="">
+
+            </div>
+            <img id="img-Titulo"src="imagens/Padaria_Cavalli.png" alt="">
+            <div id="icons-area">
+
+                <img class="icon" id="icon-busca" src="./imagens/busca.png" alt="">
+                <img class="icon" id="icon-carrinho" src="./imagens/compra.png" alt="">
+                <img class="icon"id="icon-login" src="./imagens/login.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div id="corpo">
+
+            <span>Sua preferencia tanto na beleza quanto no sabor</span>
+
+           <button id="bBotaoCadastro">Cadastre-se</button>
+
+        </div>
+    </div>
+    <div class="pBody">
+        <header>
+            <table>
+                <tr>
+                    <td><img src="imagens/logo2.png"></td>
+                    <td><h1 id="campo-titulo">OS MAIS ACLAMADOS PELO POVO</h1></td>
+                    <td><img src="imagens/logo2.png"></td>
+                </tr>
+            </table>
+        </header>
+        <table>
+            <tr>
+                <td><img src="imagens/Bolo.jpg" class="img-Produto"></td>
+                <td><img src="imagens/Pao.jpg" class="img-Produto"></td>
+                <td><img src="imagens/Esfiha.jpg" class="img-Produto"></td>
+            </tr>
+            <tr class="pTexto">
+                <td>BOLOS E DOCES</td>
+                <td>PAES E MASSAS</td>
+                <td>SALGADOS E LANCHES</td>
+            </tr>
+        </table>
+            <div class="pBotao">
+                <button class ="campo-botao" id = "bBotao">Produtos</button>
+            </div>
+    </div>
+
+    <div>
+
+        <div id="depoimento-area">
+            <h1>Comentarios</h1>
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+            <textarea id="depoimento" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Enviar">
+
+            <div class="div-card">
+                <table>
+                  <tr>
+                    <td>
+                      <img class="div-img"src="imagens/Usuario.png" alt="">
+                    </td>
+                    <td>
+                      <h3 class="div-texto"> GeanCarlo Cavalli </h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      Produtos maravilhosos, os pães estavam super crocantes e a Carolina estava divina!
+                    </td>
+                  </tr>
+                </table>
+            </div>
+
+
+
+        </div>
+
+        <div id="endereco">
+
+            <div id="endereco-text">Endereço: R. Darcy Setim, 328 - São Cristovao, São José dos Pinhais - PR, 83040-230</div>
+            <div id="numero">Telefone de contato: (41) 3282-0744</div>
+
+        </div>
+        <div class="caixa" align="center">
+          <div class="titulo">
+            <span class="span">
+              <span class="mdl-chip__text">Conheça mais sobre nossos produtos!</span>
+            </span>
+          </div>
+          <div class="video">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/AfCO7YTOxpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mapinha">
+            <div id="map"></div>
+        </div>
+
+
+        <div id="rodape">
+          <div class="icones">
+            <img class="bIcone" id="iconeLinkT" src="imagens/Icone_Twitter.png">
+            <img class="bIcone" id="iconeLinkF" src="imagens/Icone_Facebook.png">
+            <img class="bIcone" id="iconeLinkI" src="imagens/Icone_Instagram.png">
+            <img class="bIcone" id="iconeLinkP" src="imagens/Icone_Pinterest.png">
+          </div>
+        </div>
+
+    </div>
+
+</body>
 </html>
