@@ -60,6 +60,15 @@ form {
     position: relative;
 }
 
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
 label {
     font-weight: bold;
     font-size: .8rem;
@@ -85,12 +94,24 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-.bBotaoLogin{
-  background-color: #ffcc66;
-  color: #000;
-  border: none;
-  border-radius: 20px;
-  height: 40px;
-  width: 40%;
-  cursor: pointer;
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+/* validações*/
+
+.error-validation {
+    color: #e60084;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
 }

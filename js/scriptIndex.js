@@ -10,6 +10,10 @@ $(document).ready(function(){
         window.location.href = "pagina/Cadastro.html";
     });
 
+    $("#icon-login").click(function(){
+        window.location.href = "pagina/Login.html";
+    });
+
     $("#iconeLinkT").click(function(){
       window.location = "https://twitter.com/login?lang=pt";
     })
@@ -25,6 +29,7 @@ $(document).ready(function(){
     $("#iconeLinkP").click(function(){
       window.location = "https://br.pinterest.com/";
     })
+
 });
 
 
@@ -44,5 +49,3 @@ function initMap() {
   });
 
 }
-
-
